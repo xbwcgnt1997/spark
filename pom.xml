@@ -232,6 +232,10 @@
         <enabled>false</enabled>
       </snapshots>
     </repository>
+    <repository>
+      <id>cloudera</id>
+      <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+    </repository>
   </repositories>
   <pluginRepositories>
     <pluginRepository>
@@ -2588,7 +2592,7 @@
     <profile>
       <id>hadoop-3.0</id>
       <properties>
-        <hadoop.version>3.0.0</hadoop.version>
+        <hadoop.version>3.0.0-cdh6.0.1</hadoop.version>
         <curator.version>2.12.0</curator.version>
         <zookeeper.version>3.4.9</zookeeper.version>
       </properties>
